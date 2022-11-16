@@ -25,6 +25,146 @@
       "locked_code": false,
       "registry_name": "cancer",
       "path": "~/the kelton land"
+    },
+    {
+      "name": "CommandingPrescence",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commanding_prescence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "Win",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win",
+      "path": "~/the kelton land/dont worry"
+    },
+    {
+      "name": "TypeWin",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "type_win",
+      "path": "~/the kelton land/dont worry"
+    },
+    {
+      "name": "RemindingOfWinning",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reminding_of_winning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land/dont worry"
+    },
+    {
+      "name": "WinReminder1",
+      "type": "keybind",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_1",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder2",
+      "type": "keybind",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_2",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder3",
+      "type": "keybind",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_3",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder4",
+      "type": "keybind",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_4",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder5",
+      "type": "keybind",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_5",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder6",
+      "type": "keybind",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_6",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder7",
+      "type": "keybind",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_7",
+      "path": "~/the kelton land/dont worry/WINNING"
+    },
+    {
+      "name": "WinReminder8",
+      "type": "keybind",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "win_reminder_8",
+      "path": "~/the kelton land/dont worry/WINNING"
     }
   ],
   "variable_elements": [],
@@ -32,9 +172,19 @@
   "language_map": {
     "en_us": {
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-      "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "key.dwarf_fortress_real.win_reminder_7": "win",
       "biome.dwarf_fortress_real.g": "G",
-      "advancements.we_call_this_folder_hell.descr": "good luck"
+      "key.dwarf_fortress_real.win_reminder_8": "win",
+      "advancements.we_call_this_folder_hell.descr": "good luck",
+      "key.dwarf_fortress_real.win_reminder_5": "win",
+      "key.dwarf_fortress_real.win_reminder_6": "win",
+      "key.dwarf_fortress_real.win_reminder_3": "win",
+      "key.dwarf_fortress_real.win_reminder_4": "win",
+      "key.dwarf_fortress_real.win_reminder_1": "win",
+      "key.dwarf_fortress_real.win_reminder_2": "win",
+      "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!"
     }
   },
   "foldersRoot": {
@@ -42,7 +192,17 @@
     "children": [
       {
         "name": "the kelton land",
-        "children": []
+        "children": [
+          {
+            "name": "dont worry",
+            "children": [
+              {
+                "name": "WINNING",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },

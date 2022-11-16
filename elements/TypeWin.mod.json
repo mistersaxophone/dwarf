@@ -1,0 +1,35 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Type \"/WIN\" for FREE WIN!!!!!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Type \"/WIN\" for FREE WIN!!!!!",
+          "x": 141,
+          "y": 17
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

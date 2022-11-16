@@ -1,6 +1,16 @@
 {
   "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-  "item.dwarf_fortress_real.cancer": "preview Cancer",
+  "key.dwarf_fortress_real.win_reminder_7": "win",
   "biome.dwarf_fortress_real.g": "G",
-  "advancements.we_call_this_folder_hell.descr": "good luck"
+  "key.dwarf_fortress_real.win_reminder_8": "win",
+  "advancements.we_call_this_folder_hell.descr": "good luck",
+  "key.dwarf_fortress_real.win_reminder_5": "win",
+  "key.dwarf_fortress_real.win_reminder_6": "win",
+  "key.dwarf_fortress_real.win_reminder_3": "win",
+  "key.dwarf_fortress_real.win_reminder_4": "win",
+  "key.dwarf_fortress_real.win_reminder_1": "win",
+  "key.dwarf_fortress_real.win_reminder_2": "win",
+  "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+  "item.dwarf_fortress_real.cancer": "preview Cancer",
+  "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!"
 }
