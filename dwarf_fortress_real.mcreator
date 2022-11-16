@@ -7,18 +7,44 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "g"
+    },
+    {
+      "name": "WeCallThisFolderHell",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "we_call_this_folder_hell",
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "Cancer",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancer",
+      "path": "~/the kelton land"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "biome.dwarf_fortress_real.g": "G"
+      "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "biome.dwarf_fortress_real.g": "G",
+      "advancements.we_call_this_folder_hell.descr": "good luck"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "the kelton land",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "dwarf_fortress_real",

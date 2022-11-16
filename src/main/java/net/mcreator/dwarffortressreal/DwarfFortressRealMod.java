@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dwarffortressreal.init.DwarfFortressRealModItems;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBiomes;
 
 import java.util.function.Supplier;
@@ -44,6 +45,8 @@ public class DwarfFortressRealMod {
 	public DwarfFortressRealMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DwarfFortressRealModItems.REGISTRY.register(bus);
 
 		DwarfFortressRealModBiomes.REGISTRY.register(bus);
 

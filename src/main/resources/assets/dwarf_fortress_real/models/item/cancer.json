@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dwarf_fortress_real:items/2"
+  }
+}
