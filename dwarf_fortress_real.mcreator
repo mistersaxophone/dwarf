@@ -204,7 +204,16 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "camellia",
+      "files": [
+        "project_52"
+      ],
+      "category": "master",
+      "subtitle": "HE\u0027S JAMMING"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
@@ -219,6 +228,7 @@
       "key.dwarf_fortress_real.win_reminder_3": "win",
       "key.dwarf_fortress_real.win_reminder_4": "win",
       "key.dwarf_fortress_real.win_reminder_1": "win",
+      "subtitles.camellia": "HE\u0027S JAMMING",
       "key.dwarf_fortress_real.win_reminder_2": "win",
       "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "item.dwarf_fortress_real.cancer": "preview Cancer",

@@ -33,18 +33,18 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:camellia"
     },
     "additionsSound": {
-      "value": ""
+      "value": "CUSTOM:camellia"
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:camellia"
     },
     "moodSound": {
-      "value": ""
+      "value": "CUSTOM:camellia"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 10,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

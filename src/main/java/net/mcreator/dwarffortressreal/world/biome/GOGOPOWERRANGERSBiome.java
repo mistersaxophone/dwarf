@@ -20,7 +20,12 @@ import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.biome.AmbientMoodSettings;
+import net.minecraft.world.level.biome.AmbientAdditionsSettings;
 import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.Music;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.features.FeatureUtils;
@@ -39,7 +44,11 @@ public class GOGOPOWERRANGERSBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-52276).waterColor(-65536).waterFogColor(-16776961).skyColor(-52276)
-				.foliageColorOverride(-205).grassColorOverride(-13369549).build();
+				.foliageColorOverride(-205).grassColorOverride(-13369549)
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("dwarf_fortress_real:camellia")))
+				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("dwarf_fortress_real:camellia")), 10, 8, 2))
+				.ambientAdditionsSound(new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("dwarf_fortress_real:camellia")), 0.0111D))
+				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("dwarf_fortress_real:camellia")), 12000, 24000, true)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register(
 				"dwarf_fortress_real:tree_gogopowerrangers",

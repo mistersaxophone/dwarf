@@ -1,0 +1,12 @@
+{
+  "camellia": {
+    "category": "master",
+    "subtitle": "subtitles.camellia",
+    "sounds": [
+      {
+        "name": "dwarf_fortress_real:project_52",
+        "stream": false
+      }
+    ]
+  }
+}
