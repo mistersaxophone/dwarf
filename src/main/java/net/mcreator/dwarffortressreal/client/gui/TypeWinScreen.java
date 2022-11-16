@@ -68,7 +68,7 @@ public class TypeWinScreen extends AbstractContainerScreen<TypeWinMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Type \"/WIN\" for FREE WIN!!!!!", -72, -103, -12829636);
+		this.font.draw(poseStack, "Type \"/WIN\" for FREE WIN!!!!!", -72, -103, -65536);
 	}
 
 	@Override
