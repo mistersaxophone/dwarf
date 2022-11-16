@@ -29,13 +29,13 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import java.util.List;
 
 public class GOGOPOWERRANGERSBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.042857142857f, 0.042857142857f),
-			Climate.Parameter.span(-0.042857142857f, 0.042857142857f), Climate.Parameter.span(0.467142857143f, 0.552857142857f),
-			Climate.Parameter.span(0.757142857143f, 0.842857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.988817070764f, -0.90310278505f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.114285714286f, 0.114285714286f),
+			Climate.Parameter.span(-0.114285714286f, 0.114285714286f), Climate.Parameter.span(0.395714285714f, 0.624285714286f),
+			Climate.Parameter.span(0.685714285714f, 0.914285714286f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-1.060245642193f, -0.831674213621f), 0);
 	public static final Climate.ParameterPoint PARAMETER_POINT_UNDERGROUND = new Climate.ParameterPoint(Climate.Parameter.span(-1, 1),
-			Climate.Parameter.span(-1, 1), Climate.Parameter.span(0.21f, 0.81f), Climate.Parameter.span(0.5f, 1.1f),
-			Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.245959927907f, -0.645959927907f), 0);
+			Climate.Parameter.span(-1, 1), Climate.Parameter.span(-0.29f, 1.31f), Climate.Parameter.span(0f, 1.6f),
+			Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-1.745959927907f, -0.145959927907f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-52276).waterColor(-65536).waterFogColor(-16776961).skyColor(-52276)
