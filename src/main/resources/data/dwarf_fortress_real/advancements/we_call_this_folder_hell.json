@@ -19,7 +19,7 @@
     "we_call_this_folder_hell": {
       "trigger": "minecraft:location",
       "conditions": {
-        "biome": "swamp"
+        "biome": "dwarf_fortress_real:gogopowerrangers"
       }
     }
   }
