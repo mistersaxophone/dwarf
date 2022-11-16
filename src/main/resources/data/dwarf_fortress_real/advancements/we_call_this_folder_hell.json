@@ -17,9 +17,9 @@
   },
   "criteria": {
     "we_call_this_folder_hell": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "minecraft:location",
       "conditions": {
-        "to": "minecraft:overworld"
+        "biome": "swamp"
       }
     }
   }
