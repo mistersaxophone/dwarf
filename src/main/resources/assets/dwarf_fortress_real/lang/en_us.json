@@ -1,6 +1,8 @@
 {
+  "block.dwarf_fortress_real.powerranging": "POWERRANGING",
   "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "key.dwarf_fortress_real.win_reminder_7": "win",
+  "block.dwarf_fortress_real.trolling": "TROLLING",
   "biome.dwarf_fortress_real.g": "G",
   "key.dwarf_fortress_real.win_reminder_8": "win",
   "advancements.we_call_this_folder_hell.descr": "good luck",
@@ -12,5 +14,7 @@
   "key.dwarf_fortress_real.win_reminder_2": "win",
   "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
   "item.dwarf_fortress_real.cancer": "preview Cancer",
-  "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!"
+  "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
+  "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+  "itemGroup.taboops": "oops"
 }

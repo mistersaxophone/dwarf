@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dwarf_fortress_real:blocks/aaaabvunpbyvr915d6c7fvfuv9qbrr5k",
+    "up": "dwarf_fortress_real:blocks/b1e1f4b7-8b40-4fa2-bb68-6ef0422c",
+    "north": "dwarf_fortress_real:blocks/ioq9buv0emc_kclqdna7nuqj_c_xyrqh",
+    "east": "dwarf_fortress_real:blocks/power-rangers-reboot-universe-ne",
+    "south": "dwarf_fortress_real:blocks/power-rangers-reboot-universe",
+    "west": "dwarf_fortress_real:blocks/mighty-morphin-power-rangers",
+    "particle": "dwarf_fortress_real:blocks/untitlefafad_-_copy"
+  }
+}

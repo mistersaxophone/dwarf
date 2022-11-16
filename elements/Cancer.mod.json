@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "2",
+    "texture": "46u",
     "customModelName": "Normal",
     "name": "preview Cancer",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Oops"
     },
     "stackSize": 3,
     "enchantability": 0,

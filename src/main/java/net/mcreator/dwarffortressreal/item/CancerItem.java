@@ -9,11 +9,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.dwarffortressreal.init.DwarfFortressRealModTabs;
+
 import java.util.List;
 
 public class CancerItem extends Item {
 	public CancerItem() {
-		super(new Item.Properties().tab(null).stacksTo(3).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(DwarfFortressRealModTabs.TAB_OOPS).stacksTo(3).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override
