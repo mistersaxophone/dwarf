@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.dwarffortressreal.client.gui.TypeWinScreen;
+import net.mcreator.dwarffortressreal.client.gui.GUIMeterScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DwarfFortressRealModScreens {
@@ -19,6 +20,7 @@ public class DwarfFortressRealModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(DwarfFortressRealModMenus.TYPE_WIN, TypeWinScreen::new);
+			MenuScreens.register(DwarfFortressRealModMenus.GUI_METER, GUIMeterScreen::new);
 		});
 	}
 }

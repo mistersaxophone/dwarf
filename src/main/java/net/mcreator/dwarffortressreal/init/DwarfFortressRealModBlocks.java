@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.dwarffortressreal.block.TROLLINGBlock;
+import net.mcreator.dwarffortressreal.block.SilverFishProductionTestBlock;
 import net.mcreator.dwarffortressreal.block.POWERRANGINGBlock;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -18,4 +19,6 @@ public class DwarfFortressRealModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DwarfFortressRealMod.MODID);
 	public static final RegistryObject<Block> POWERRANGING = REGISTRY.register("powerranging", () -> new POWERRANGINGBlock());
 	public static final RegistryObject<Block> TROLLING = REGISTRY.register("trolling", () -> new TROLLINGBlock());
+	public static final RegistryObject<Block> SILVER_FISH_PRODUCTION_TEST = REGISTRY.register("silver_fish_production_test",
+			() -> new SilverFishProductionTestBlock());
 }
