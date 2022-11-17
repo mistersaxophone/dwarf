@@ -846,6 +846,48 @@
       "locked_code": false,
       "registry_name": "creative_battery",
       "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "SilverfishProgressProbeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish_progress_probe_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "SilverfishProgressProbe",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish_progress_probe",
+      "path": "~/the kelton land"
     }
   ],
   "variable_elements": [],
@@ -861,12 +903,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.dwarf_fortress_real.powerranging": "POWERRANGING",
-      "block.dwarf_fortress_real.creative_battery": "Creative Battery",
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "key.dwarf_fortress_real.win_reminder_7": "win",
-      "block.dwarf_fortress_real.trolling": "TROLLING",
-      "biome.dwarf_fortress_real.g": "G",
       "key.dwarf_fortress_real.win_reminder_8": "win",
       "advancements.we_call_this_folder_hell.descr": "good luck",
       "key.dwarf_fortress_real.win_reminder_5": "win",
@@ -878,11 +916,16 @@
       "key.dwarf_fortress_real.win_reminder_2": "win",
       "block.dwarf_fortress_real.electric_conduit": "Electric Conduit",
       "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-      "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
       "item.dwarf_fortress_real.cancer": "preview Cancer",
-      "item.dwarf_fortress_real.energy_probe": "Energy Probe",
-      "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
       "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "block.dwarf_fortress_real.powerranging": "POWERRANGING",
+      "block.dwarf_fortress_real.creative_battery": "Creative Battery",
+      "block.dwarf_fortress_real.trolling": "TROLLING",
+      "biome.dwarf_fortress_real.g": "G",
+      "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
+      "item.dwarf_fortress_real.energy_probe": "Energy Probe",
+      "item.dwarf_fortress_real.silverfish_progress_probe": "Silverfish Progress Probe",
+      "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
       "itemGroup.taboops": "oops"
     }
   },
