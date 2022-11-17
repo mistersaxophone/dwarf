@@ -25,6 +25,8 @@ public class DwarfFortressRealModItems {
 	public static final RegistryObject<Item> SILVER_FISH_PRODUCTION_TEST = block(DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST,
 			DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> ENERGY_PROBE = REGISTRY.register("energy_probe", () -> new EnergyProbeItem());
+	public static final RegistryObject<Item> ELECTRIC_CONDUIT = block(DwarfFortressRealModBlocks.ELECTRIC_CONDUIT, DwarfFortressRealModTabs.TAB_OOPS);
+	public static final RegistryObject<Item> CREATIVE_BATTERY = block(DwarfFortressRealModBlocks.CREATIVE_BATTERY, DwarfFortressRealModTabs.TAB_OOPS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

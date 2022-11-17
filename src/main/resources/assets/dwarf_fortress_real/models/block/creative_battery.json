@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dwarf_fortress_real:blocks/untitlefafad_-_copy",
+    "up": "dwarf_fortress_real:blocks/ioq9buv0emc_kclqdna7nuqj_c_xyrqh",
+    "north": "dwarf_fortress_real:blocks/untitlefafad_-_copy",
+    "east": "dwarf_fortress_real:blocks/untitlefafad_-_copy",
+    "south": "dwarf_fortress_real:blocks/untitlefafad_-_copy",
+    "west": "dwarf_fortress_real:blocks/untitlefafad_-_copy",
+    "particle": "dwarf_fortress_real:blocks/untitlefafad_-_copy"
+  }
+}

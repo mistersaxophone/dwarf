@@ -799,6 +799,53 @@
         ]
       },
       "path": "~/the kelton land"
+    },
+    {
+      "name": "ElectricConduit",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_conduit",
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "ElectricConduitUpdateTick",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_conduit_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "CreativeBattery",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_battery",
+      "path": "~/the kelton land/power transfer"
     }
   ],
   "variable_elements": [],
@@ -815,6 +862,7 @@
   "language_map": {
     "en_us": {
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
+      "block.dwarf_fortress_real.creative_battery": "Creative Battery",
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "key.dwarf_fortress_real.win_reminder_7": "win",
       "block.dwarf_fortress_real.trolling": "TROLLING",
@@ -828,6 +876,7 @@
       "key.dwarf_fortress_real.win_reminder_1": "win",
       "subtitles.camellia": "HE\u0027S JAMMING",
       "key.dwarf_fortress_real.win_reminder_2": "win",
+      "block.dwarf_fortress_real.electric_conduit": "Electric Conduit",
       "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
       "item.dwarf_fortress_real.cancer": "preview Cancer",
@@ -854,6 +903,10 @@
           },
           {
             "name": "stupid jank",
+            "children": []
+          },
+          {
+            "name": "power transfer",
             "children": []
           }
         ]

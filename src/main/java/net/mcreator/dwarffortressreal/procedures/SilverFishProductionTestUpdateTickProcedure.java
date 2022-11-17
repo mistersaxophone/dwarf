@@ -2,10 +2,10 @@ package net.mcreator.dwarffortressreal.procedures;
 
 import net.minecraftforge.energy.CapabilityEnergy;
 
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Silverfish;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
@@ -33,19 +33,31 @@ public class SilverFishProductionTestUpdateTickProcedure {
 				if (_ent != null)
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
 			}
-			{
-				int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-						"silverfishCount") instanceof IntegerProperty _getip3 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip3) : -1)
-						+ 1);
-				BlockPos _pos = new BlockPos(x, y, z);
-				BlockState _bs = world.getBlockState(_pos);
-				if (_bs.getBlock().getStateDefinition().getProperty("silverfishCount") instanceof IntegerProperty _integerProp
-						&& _integerProp.getPossibleValues().contains(_value))
-					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+			if (!world.isClientSide()) {
+				BlockPos _bp = new BlockPos(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getTileData().putDouble("silverfishCount", (new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getTileData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, new BlockPos(x, y, z), "silverfishCount") + 1));
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 		}
-		if (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-				"silverfishCount") instanceof IntegerProperty _getip6 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip6) : -1) >= 100) {
+		if (new Object() {
+			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getTileData().getDouble(tag);
+				return -1;
+			}
+		}.getValue(world, new BlockPos(x, y, z), "silverfishCount") >= 100) {
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new Silverfish(EntityType.SILVERFISH, _level);
 				entityToSpawn.moveTo((x + 0.5), (y + 1), (z + 0.5), world.getRandom().nextFloat() * 360F, 0);
@@ -54,15 +66,21 @@ public class SilverFishProductionTestUpdateTickProcedure {
 							null);
 				world.addFreshEntity(entityToSpawn);
 			}
-			{
-				int _value = (int) (((world.getBlockState(new BlockPos(x, y, z))).getBlock().getStateDefinition().getProperty(
-						"silverfishCount") instanceof IntegerProperty _getip9 ? (world.getBlockState(new BlockPos(x, y, z))).getValue(_getip9) : -1)
-						- 100);
-				BlockPos _pos = new BlockPos(x, y, z);
-				BlockState _bs = world.getBlockState(_pos);
-				if (_bs.getBlock().getStateDefinition().getProperty("silverfishCount") instanceof IntegerProperty _integerProp
-						&& _integerProp.getPossibleValues().contains(_value))
-					world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+			if (!world.isClientSide()) {
+				BlockPos _bp = new BlockPos(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getTileData().putDouble("silverfishCount", ((new Object() {
+						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
+							BlockEntity blockEntity = world.getBlockEntity(pos);
+							if (blockEntity != null)
+								return blockEntity.getTileData().getDouble(tag);
+							return -1;
+						}
+					}.getValue(world, new BlockPos(x, y, z), "silverfishCount")) - 100));
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 		}
 	}
