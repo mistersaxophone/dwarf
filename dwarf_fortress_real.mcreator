@@ -960,8 +960,8 @@
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "key.dwarf_fortress_real.win_reminder_7": "win",
       "key.dwarf_fortress_real.win_reminder_8": "win",
-      "advancements.we_call_this_folder_hell.descr": "good luck",
       "key.dwarf_fortress_real.win_reminder_5": "win",
+      "advancements.we_call_this_folder_hell.descr": "good luck",
       "key.dwarf_fortress_real.win_reminder_6": "win",
       "key.dwarf_fortress_real.win_reminder_3": "win",
       "key.dwarf_fortress_real.win_reminder_4": "win",
@@ -1014,6 +1014,19 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "wave",
+        "children": [
+          {
+            "name": "proceedured",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "this is the folder where bad decisions go",
+        "children": []
       }
     ]
   },

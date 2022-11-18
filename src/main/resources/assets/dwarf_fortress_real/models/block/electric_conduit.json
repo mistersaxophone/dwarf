@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "dwarf_fortress_real:blocks/conduitside4",
+    "down": "dwarf_fortress_real:blocks/conduitside2",
     "up": "dwarf_fortress_real:blocks/conduitside2",
     "north": "dwarf_fortress_real:blocks/conduitend",
     "east": "dwarf_fortress_real:blocks/conduitside1",
     "south": "dwarf_fortress_real:blocks/conduitend",
     "west": "dwarf_fortress_real:blocks/conduitside3",
-    "particle": "dwarf_fortress_real:blocks/conduitside4"
+    "particle": "dwarf_fortress_real:blocks/conduitside2"
   }
 }
