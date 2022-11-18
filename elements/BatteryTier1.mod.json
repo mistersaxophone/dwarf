@@ -2,15 +2,15 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "conduitside4",
-    "textureTop": "conduitside2",
-    "textureLeft": "conduitside1",
-    "textureFront": "conduitend",
-    "textureRight": "conduitside3",
-    "textureBack": "conduitend",
+    "texture": "bloche",
+    "textureTop": "jwr67j8h",
+    "textureLeft": "bloche",
+    "textureFront": "bloche",
+    "textureRight": "bloche",
+    "textureBack": "bloche",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 4,
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": true,
-    "transparencyType": "CUTOUT",
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,14 +33,15 @@
         "subtract": false
       }
     ],
-    "name": "Electric Conduit Tier 1",
+    "name": "Battery Tier 1",
     "specialInfo": [
-      "Transfers 20 energy per tick."
+      "Can store 100k energy.",
+      "WILL LOSE ENERGY IF BROKEN!!!"
     ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Oops"
     },
@@ -54,11 +55,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 1,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -77,7 +78,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -109,7 +110,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "GUIMeter",
     "openGUIOnRightClick": false,
     "inventorySize": 0,
     "inventoryStackSize": 64,
@@ -119,18 +120,19 @@
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 20,
-    "energyMaxReceive": 20,
-    "energyMaxExtract": 20,
+    "energyCapacity": 100000,
+    "energyMaxReceive": 100000,
+    "energyMaxExtract": 100000,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "ElectricConduitUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

@@ -3,7 +3,7 @@
     {
       "name": "G",
       "type": "biome",
-      "sortid": 1,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g"
@@ -11,7 +11,7 @@
     {
       "name": "WeCallThisFolderHell",
       "type": "achievement",
-      "sortid": 2,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "we_call_this_folder_hell",
@@ -20,7 +20,7 @@
     {
       "name": "Cancer",
       "type": "item",
-      "sortid": 3,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cancer",
@@ -29,7 +29,7 @@
     {
       "name": "CommandingPrescence",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "commanding_prescence",
@@ -46,7 +46,7 @@
     {
       "name": "Win",
       "type": "command",
-      "sortid": 5,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win",
@@ -55,7 +55,7 @@
     {
       "name": "TypeWin",
       "type": "gui",
-      "sortid": 6,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "type_win",
@@ -64,7 +64,7 @@
     {
       "name": "RemindingOfWinning",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reminding_of_winning",
@@ -97,7 +97,7 @@
     {
       "name": "WinReminder1",
       "type": "keybind",
-      "sortid": 7,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_1",
@@ -106,7 +106,7 @@
     {
       "name": "WinReminder2",
       "type": "keybind",
-      "sortid": 8,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_2",
@@ -115,7 +115,7 @@
     {
       "name": "WinReminder3",
       "type": "keybind",
-      "sortid": 9,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_3",
@@ -124,7 +124,7 @@
     {
       "name": "WinReminder4",
       "type": "keybind",
-      "sortid": 10,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_4",
@@ -133,7 +133,7 @@
     {
       "name": "WinReminder5",
       "type": "keybind",
-      "sortid": 11,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_5",
@@ -142,7 +142,7 @@
     {
       "name": "WinReminder6",
       "type": "keybind",
-      "sortid": 12,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_6",
@@ -151,7 +151,7 @@
     {
       "name": "WinReminder7",
       "type": "keybind",
-      "sortid": 13,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_7",
@@ -160,7 +160,7 @@
     {
       "name": "WinReminder8",
       "type": "keybind",
-      "sortid": 14,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "win_reminder_8",
@@ -169,7 +169,7 @@
     {
       "name": "GOGOPOWERRANGERS",
       "type": "biome",
-      "sortid": 15,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gogopowerrangers",
@@ -178,7 +178,7 @@
     {
       "name": "POWERRANGING",
       "type": "block",
-      "sortid": 16,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "powerranging",
@@ -187,7 +187,7 @@
     {
       "name": "TROLLING",
       "type": "block",
-      "sortid": 17,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trolling",
@@ -196,7 +196,7 @@
     {
       "name": "Oops",
       "type": "tab",
-      "sortid": 18,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oops",
@@ -205,7 +205,7 @@
     {
       "name": "SilverFishProductionTest",
       "type": "block",
-      "sortid": 19,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_fish_production_test",
@@ -214,7 +214,7 @@
     {
       "name": "IfPowerLevel",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_1",
@@ -244,7 +244,7 @@
     {
       "name": "IfPowerLevel2",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_2",
@@ -274,7 +274,7 @@
     {
       "name": "IfPowerLevel3",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_3",
@@ -304,7 +304,7 @@
     {
       "name": "IfPowerLevel4",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_4",
@@ -334,7 +334,7 @@
     {
       "name": "IfPowerLevel5",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_5",
@@ -364,7 +364,7 @@
     {
       "name": "IfPowerLevel6",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_6",
@@ -394,7 +394,7 @@
     {
       "name": "IfPowerLevel7",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_7",
@@ -424,7 +424,7 @@
     {
       "name": "IfPowerLevel8",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_8",
@@ -454,7 +454,7 @@
     {
       "name": "IfPowerLevel9",
       "type": "procedure",
-      "sortid": 28,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_9",
@@ -484,7 +484,7 @@
     {
       "name": "IfPowerLevel10",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_10",
@@ -514,7 +514,7 @@
     {
       "name": "IfPowerLevel11",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_11",
@@ -544,7 +544,7 @@
     {
       "name": "IfPowerLevel12",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_12",
@@ -574,7 +574,7 @@
     {
       "name": "IfPowerLevel13",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_13",
@@ -604,7 +604,7 @@
     {
       "name": "IfPowerLevel14",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_14",
@@ -634,7 +634,7 @@
     {
       "name": "IfPowerLevel15",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_15",
@@ -664,7 +664,7 @@
     {
       "name": "IfPowerLevel16",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_power_level_16",
@@ -694,7 +694,7 @@
     {
       "name": "GUIMeter",
       "type": "gui",
-      "sortid": 20,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_meter",
@@ -703,7 +703,7 @@
     {
       "name": "EnergyProbe",
       "type": "item",
-      "sortid": 36,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "energy_probe",
@@ -712,7 +712,7 @@
     {
       "name": "EnergyProbeRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "energy_probe_rightclicked_on_block",
@@ -745,7 +745,7 @@
     {
       "name": "SilverFishProductionTestUpdateTick",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_fish_production_test_update_tick",
@@ -774,7 +774,7 @@
     {
       "name": "SilverFishProductionTestBlockAdded",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_fish_production_test_block_added",
@@ -803,7 +803,7 @@
     {
       "name": "ElectricConduit",
       "type": "block",
-      "sortid": 40,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit",
@@ -812,7 +812,7 @@
     {
       "name": "ElectricConduitUpdateTick",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_update_tick",
@@ -841,7 +841,7 @@
     {
       "name": "CreativeBattery",
       "type": "block",
-      "sortid": 42,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_battery",
@@ -850,7 +850,7 @@
     {
       "name": "SilverfishProgressProbeRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silverfish_progress_probe_rightclicked_on_block",
@@ -883,7 +883,7 @@
     {
       "name": "SilverfishProgressProbe",
       "type": "item",
-      "sortid": 43,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silverfish_progress_probe",
@@ -892,7 +892,7 @@
     {
       "name": "CreativeElectricConduit",
       "type": "block",
-      "sortid": 44,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_electric_conduit",
@@ -901,16 +901,16 @@
     {
       "name": "StoneDust",
       "type": "item",
-      "sortid": 45,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dust",
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/DUST"
     },
     {
       "name": "SLIVERFISHE",
       "type": "livingentity",
-      "sortid": 45,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliverfishe",
@@ -919,7 +919,7 @@
     {
       "name": "ElectricConduit2",
       "type": "block",
-      "sortid": 46,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_2",
@@ -928,7 +928,7 @@
     {
       "name": "ElectricConduit3",
       "type": "block",
-      "sortid": 47,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_3",
@@ -937,11 +937,128 @@
     {
       "name": "ElectricConduit4",
       "type": "block",
-      "sortid": 48,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_4",
       "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "BatteryTier1",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_tier_1",
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "LapisDust",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "IronDust",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "GoldDust",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "RedstoneCrumbles",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_crumbles",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "CopperDust",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "CoalDust",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "EmeraldDust",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "QuartzDust",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "AncientDustCrumbles",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_dust_crumbles",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "AncientDust",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_dust",
+      "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "AncientScrap",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_scrap",
+      "path": "~/the kelton land/DUST"
     }
   ],
   "variable_elements": [],
@@ -958,21 +1075,29 @@
   "language_map": {
     "en_us": {
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.lapis_dust": "Lapis Dust",
       "key.dwarf_fortress_real.win_reminder_7": "win",
+      "item.dwarf_fortress_real.iron_dust": "Iron Dust",
       "key.dwarf_fortress_real.win_reminder_8": "win",
       "advancements.we_call_this_folder_hell.descr": "good luck",
       "key.dwarf_fortress_real.win_reminder_5": "win",
       "key.dwarf_fortress_real.win_reminder_6": "win",
       "key.dwarf_fortress_real.win_reminder_3": "win",
+      "item.dwarf_fortress_real.quartz_dust": "Quartz Dust",
       "key.dwarf_fortress_real.win_reminder_4": "win",
       "key.dwarf_fortress_real.win_reminder_1": "win",
       "subtitles.camellia": "HE\u0027S JAMMING",
+      "item.dwarf_fortress_real.diamond_dust": "Diamond Dust",
       "key.dwarf_fortress_real.win_reminder_2": "win",
       "block.dwarf_fortress_real.electric_conduit": "Electric Conduit Tier 1",
+      "item.dwarf_fortress_real.ancient_dust": "Ancient Dust",
       "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "item.dwarf_fortress_real.stone_dust": "Stone Dust",
+      "block.dwarf_fortress_real.battery_tier_1": "Battery Tier 1",
       "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "item.dwarf_fortress_real.coal_dust": "Coal Dust",
       "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.emerald_dust": "Emerald Dust",
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
       "block.dwarf_fortress_real.creative_battery": "Creative Battery",
       "block.dwarf_fortress_real.creative_electric_conduit": "Creative Electric Conduit",
@@ -983,11 +1108,16 @@
       "block.dwarf_fortress_real.electric_conduit_4": "Electric Conduit Tier 4",
       "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
       "item.dwarf_fortress_real.energy_probe": "Energy Probe",
+      "item.dwarf_fortress_real.copper_dust": "Copper Dust",
+      "item.dwarf_fortress_real.ancient_scrap": "Ancient Scrap",
       "item.dwarf_fortress_real.silverfish_progress_probe": "Silverfish Progress Probe",
       "entity.dwarf_fortress_real.sliverfishe": "Sliverfishe",
       "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.ancient_dust_crumbles": "Ancient Dust Crumbles",
       "itemGroup.taboops": "oops",
-      "item.dwarf_fortress_real.sliverfishe_spawn_egg": "Sliverfishe Spawn Egg"
+      "item.dwarf_fortress_real.sliverfishe_spawn_egg": "Sliverfishe Spawn Egg",
+      "item.dwarf_fortress_real.gold_dust": "Gold Dust",
+      "item.dwarf_fortress_real.redstone_crumbles": "Redstone Crumbles"
     }
   },
   "foldersRoot": {
@@ -1011,6 +1141,10 @@
           },
           {
             "name": "power transfer",
+            "children": []
+          },
+          {
+            "name": "DUST",
             "children": []
           }
         ]

@@ -16,13 +16,26 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dwarffortressreal.item.StoneDustItem;
 import net.mcreator.dwarffortressreal.item.SilverfishProgressProbeItem;
+import net.mcreator.dwarffortressreal.item.RedstoneCrumblesItem;
+import net.mcreator.dwarffortressreal.item.QuartzDustItem;
+import net.mcreator.dwarffortressreal.item.LapisDustItem;
+import net.mcreator.dwarffortressreal.item.IronDustItem;
+import net.mcreator.dwarffortressreal.item.GoldDustItem;
 import net.mcreator.dwarffortressreal.item.EnergyProbeItem;
+import net.mcreator.dwarffortressreal.item.EmeraldDustItem;
+import net.mcreator.dwarffortressreal.item.DiamondDustItem;
+import net.mcreator.dwarffortressreal.item.CopperDustItem;
+import net.mcreator.dwarffortressreal.item.CoalDustItem;
 import net.mcreator.dwarffortressreal.item.CancerItem;
+import net.mcreator.dwarffortressreal.item.AncientScrapItem;
+import net.mcreator.dwarffortressreal.item.AncientDustItem;
+import net.mcreator.dwarffortressreal.item.AncientDustCrumblesItem;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
 public class DwarfFortressRealModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DwarfFortressRealMod.MODID);
 	public static final RegistryObject<Item> CANCER = REGISTRY.register("cancer", () -> new CancerItem());
+	public static final RegistryObject<Item> BATTERY_TIER_1 = block(DwarfFortressRealModBlocks.BATTERY_TIER_1, DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> POWERRANGING = block(DwarfFortressRealModBlocks.POWERRANGING, DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> TROLLING = block(DwarfFortressRealModBlocks.TROLLING, DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> SILVER_FISH_PRODUCTION_TEST = block(DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST,
@@ -44,6 +57,18 @@ public class DwarfFortressRealModItems {
 			DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> ELECTRIC_CONDUIT_4 = block(DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_4,
 			DwarfFortressRealModTabs.TAB_OOPS);
+	public static final RegistryObject<Item> LAPIS_DUST = REGISTRY.register("lapis_dust", () -> new LapisDustItem());
+	public static final RegistryObject<Item> IRON_DUST = REGISTRY.register("iron_dust", () -> new IronDustItem());
+	public static final RegistryObject<Item> GOLD_DUST = REGISTRY.register("gold_dust", () -> new GoldDustItem());
+	public static final RegistryObject<Item> DIAMOND_DUST = REGISTRY.register("diamond_dust", () -> new DiamondDustItem());
+	public static final RegistryObject<Item> REDSTONE_CRUMBLES = REGISTRY.register("redstone_crumbles", () -> new RedstoneCrumblesItem());
+	public static final RegistryObject<Item> COPPER_DUST = REGISTRY.register("copper_dust", () -> new CopperDustItem());
+	public static final RegistryObject<Item> COAL_DUST = REGISTRY.register("coal_dust", () -> new CoalDustItem());
+	public static final RegistryObject<Item> EMERALD_DUST = REGISTRY.register("emerald_dust", () -> new EmeraldDustItem());
+	public static final RegistryObject<Item> QUARTZ_DUST = REGISTRY.register("quartz_dust", () -> new QuartzDustItem());
+	public static final RegistryObject<Item> ANCIENT_DUST_CRUMBLES = REGISTRY.register("ancient_dust_crumbles", () -> new AncientDustCrumblesItem());
+	public static final RegistryObject<Item> ANCIENT_DUST = REGISTRY.register("ancient_dust", () -> new AncientDustItem());
+	public static final RegistryObject<Item> ANCIENT_SCRAP = REGISTRY.register("ancient_scrap", () -> new AncientScrapItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

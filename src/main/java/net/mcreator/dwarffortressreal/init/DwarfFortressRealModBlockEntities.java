@@ -18,11 +18,14 @@ import net.mcreator.dwarffortressreal.block.entity.ElectricConduit3BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit2BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeBatteryBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.BatteryTier1BlockEntity;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
 public class DwarfFortressRealModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES,
 			DwarfFortressRealMod.MODID);
+	public static final RegistryObject<BlockEntityType<?>> BATTERY_TIER_1 = register("battery_tier_1", DwarfFortressRealModBlocks.BATTERY_TIER_1,
+			BatteryTier1BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SILVER_FISH_PRODUCTION_TEST = register("silver_fish_production_test",
 			DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST, SilverFishProductionTestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ELECTRIC_CONDUIT = register("electric_conduit",

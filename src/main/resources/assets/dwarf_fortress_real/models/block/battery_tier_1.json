@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dwarf_fortress_real:blocks/bloche",
+    "up": "dwarf_fortress_real:blocks/jwr67j8h",
+    "north": "dwarf_fortress_real:blocks/bloche",
+    "east": "dwarf_fortress_real:blocks/bloche",
+    "south": "dwarf_fortress_real:blocks/bloche",
+    "west": "dwarf_fortress_real:blocks/bloche",
+    "particle": "dwarf_fortress_real:blocks/bloche"
+  }
+}

@@ -23,10 +23,12 @@ import net.mcreator.dwarffortressreal.block.ElectricConduit3Block;
 import net.mcreator.dwarffortressreal.block.ElectricConduit2Block;
 import net.mcreator.dwarffortressreal.block.CreativeElectricConduitBlock;
 import net.mcreator.dwarffortressreal.block.CreativeBatteryBlock;
+import net.mcreator.dwarffortressreal.block.BatteryTier1Block;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
 public class DwarfFortressRealModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DwarfFortressRealMod.MODID);
+	public static final RegistryObject<Block> BATTERY_TIER_1 = REGISTRY.register("battery_tier_1", () -> new BatteryTier1Block());
 	public static final RegistryObject<Block> POWERRANGING = REGISTRY.register("powerranging", () -> new POWERRANGINGBlock());
 	public static final RegistryObject<Block> TROLLING = REGISTRY.register("trolling", () -> new TROLLINGBlock());
 	public static final RegistryObject<Block> SILVER_FISH_PRODUCTION_TEST = REGISTRY.register("silver_fish_production_test",
