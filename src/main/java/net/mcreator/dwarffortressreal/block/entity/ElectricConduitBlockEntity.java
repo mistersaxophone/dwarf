@@ -98,7 +98,7 @@ public class ElectricConduitBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Electric Conduit");
+		return new TextComponent("Electric Conduit Tier 1");
 	}
 
 	@Override
@@ -131,7 +131,7 @@ public class ElectricConduitBlockEntity extends RandomizableContainerBlockEntity
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(100, 100, 100, 0) {
+	private final EnergyStorage energyStorage = new EnergyStorage(20, 20, 20, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);

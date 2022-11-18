@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModTabs;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModItems;
+import net.mcreator.dwarffortressreal.init.DwarfFortressRealModEntities;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBlocks;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBlockEntities;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBiomes;
@@ -50,7 +51,7 @@ public class DwarfFortressRealMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		DwarfFortressRealModBlocks.REGISTRY.register(bus);
 		DwarfFortressRealModItems.REGISTRY.register(bus);
-
+		DwarfFortressRealModEntities.REGISTRY.register(bus);
 		DwarfFortressRealModBlockEntities.REGISTRY.register(bus);
 
 		DwarfFortressRealModBiomes.REGISTRY.register(bus);

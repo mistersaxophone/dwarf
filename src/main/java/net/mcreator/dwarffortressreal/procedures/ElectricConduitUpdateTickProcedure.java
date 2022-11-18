@@ -20,6 +20,7 @@ public class ElectricConduitUpdateTickProcedure {
 		double maxenergy = 0;
 		double energytake = 0;
 		double currentenergy = 0;
+		double maximumamountofenergyinconduit = 0;
 		saveit = new Object() {
 			public Direction getDirection(BlockState _bs) {
 				Property<?> _prop = _bs.getBlock().getStateDefinition().getProperty("facing");
@@ -31,6 +32,15 @@ public class ElectricConduitUpdateTickProcedure {
 						: Direction.NORTH;
 			}
 		}.getDirection((world.getBlockState(new BlockPos(x, y, z))));
+		maximumamountofenergyinconduit = new Object() {
+			public int getMaxEnergyStored(LevelAccessor level, BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = level.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getMaxEnergyStored()));
+				return _retval.get();
+			}
+		}.getMaxEnergyStored(world, new BlockPos(x, y, z));
 		lastenergy = new Object() {
 			public int extractEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -39,7 +49,8 @@ public class ElectricConduitUpdateTickProcedure {
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.extractEnergy(_amount, true)));
 				return _retval.get();
 			}
-		}.extractEnergySimulate(world, new BlockPos(x - saveit.getStepX(), y - saveit.getStepY(), z - saveit.getStepZ()), 100);
+		}.extractEnergySimulate(world, new BlockPos(x - saveit.getStepX(), y - saveit.getStepY(), z - saveit.getStepZ()),
+				(int) maximumamountofenergyinconduit);
 		maxenergy = new Object() {
 			public int receiveEnergySimulate(LevelAccessor level, BlockPos pos, int _amount) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -48,7 +59,7 @@ public class ElectricConduitUpdateTickProcedure {
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.receiveEnergy(_amount, true)));
 				return _retval.get();
 			}
-		}.receiveEnergySimulate(world, new BlockPos(x, y, z), 100);
+		}.receiveEnergySimulate(world, new BlockPos(x, y, z), (int) maximumamountofenergyinconduit);
 		if (lastenergy <= maxenergy) {
 			energytake = lastenergy;
 		} else if (maxenergy < lastenergy) {

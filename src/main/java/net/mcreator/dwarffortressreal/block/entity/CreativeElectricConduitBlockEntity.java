@@ -11,6 +11,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.WorldlyContainer;
@@ -18,28 +19,24 @@ import net.minecraft.world.ContainerHelper;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.IntTag;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.dwarffortressreal.world.inventory.GUIMeterMenu;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBlockEntities;
 
 import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-import io.netty.buffer.Unpooled;
-
-public class SilverFishProductionTestBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class CreativeElectricConduitBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(0, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public SilverFishProductionTestBlockEntity(BlockPos position, BlockState state) {
-		super(DwarfFortressRealModBlockEntities.SILVER_FISH_PRODUCTION_TEST.get(), position, state);
+	public CreativeElectricConduitBlockEntity(BlockPos position, BlockState state) {
+		super(DwarfFortressRealModBlockEntities.CREATIVE_ELECTRIC_CONDUIT.get(), position, state);
 	}
 
 	@Override
@@ -86,7 +83,7 @@ public class SilverFishProductionTestBlockEntity extends RandomizableContainerBl
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("silver_fish_production_test");
+		return new TextComponent("creative_electric_conduit");
 	}
 
 	@Override
@@ -96,12 +93,12 @@ public class SilverFishProductionTestBlockEntity extends RandomizableContainerBl
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new GUIMeterMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return ChestMenu.threeRows(id, inventory);
 	}
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Silver Fish Production Test");
+		return new TextComponent("Creative Electric Conduit");
 	}
 
 	@Override
@@ -134,7 +131,7 @@ public class SilverFishProductionTestBlockEntity extends RandomizableContainerBl
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(30000, 1000, 1000, 0) {
+	private final EnergyStorage energyStorage = new EnergyStorage(1000000, 1000000, 1000000, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);

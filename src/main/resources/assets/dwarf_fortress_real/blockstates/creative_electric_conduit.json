@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit"
+    },
+    "facing=east": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "dwarf_fortress_real:block/creative_electric_conduit",
+      "x": 90
+    }
+  }
+}

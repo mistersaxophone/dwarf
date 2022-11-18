@@ -888,6 +888,60 @@
       "locked_code": false,
       "registry_name": "silverfish_progress_probe",
       "path": "~/the kelton land"
+    },
+    {
+      "name": "CreativeElectricConduit",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_electric_conduit",
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "StoneDust",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dust",
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "SLIVERFISHE",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliverfishe",
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "ElectricConduit2",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_conduit_2",
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "ElectricConduit3",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_conduit_3",
+      "path": "~/the kelton land/power transfer"
+    },
+    {
+      "name": "ElectricConduit4",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_conduit_4",
+      "path": "~/the kelton land/power transfer"
     }
   ],
   "variable_elements": [],
@@ -914,19 +968,26 @@
       "key.dwarf_fortress_real.win_reminder_1": "win",
       "subtitles.camellia": "HE\u0027S JAMMING",
       "key.dwarf_fortress_real.win_reminder_2": "win",
-      "block.dwarf_fortress_real.electric_conduit": "Electric Conduit",
+      "block.dwarf_fortress_real.electric_conduit": "Electric Conduit Tier 1",
       "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.stone_dust": "Stone Dust",
       "item.dwarf_fortress_real.cancer": "preview Cancer",
       "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
       "block.dwarf_fortress_real.creative_battery": "Creative Battery",
+      "block.dwarf_fortress_real.creative_electric_conduit": "Creative Electric Conduit",
       "block.dwarf_fortress_real.trolling": "TROLLING",
       "biome.dwarf_fortress_real.g": "G",
+      "block.dwarf_fortress_real.electric_conduit_2": "Electric Conduit Tier 2",
+      "block.dwarf_fortress_real.electric_conduit_3": "Electric Conduit Tier 3",
+      "block.dwarf_fortress_real.electric_conduit_4": "Electric Conduit Tier 4",
       "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
       "item.dwarf_fortress_real.energy_probe": "Energy Probe",
       "item.dwarf_fortress_real.silverfish_progress_probe": "Silverfish Progress Probe",
+      "entity.dwarf_fortress_real.sliverfishe": "Sliverfishe",
       "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
-      "itemGroup.taboops": "oops"
+      "itemGroup.taboops": "oops",
+      "item.dwarf_fortress_real.sliverfishe_spawn_egg": "Sliverfishe Spawn Egg"
     }
   },
   "foldersRoot": {

@@ -18,6 +18,10 @@ import net.mcreator.dwarffortressreal.block.TROLLINGBlock;
 import net.mcreator.dwarffortressreal.block.SilverFishProductionTestBlock;
 import net.mcreator.dwarffortressreal.block.POWERRANGINGBlock;
 import net.mcreator.dwarffortressreal.block.ElectricConduitBlock;
+import net.mcreator.dwarffortressreal.block.ElectricConduit4Block;
+import net.mcreator.dwarffortressreal.block.ElectricConduit3Block;
+import net.mcreator.dwarffortressreal.block.ElectricConduit2Block;
+import net.mcreator.dwarffortressreal.block.CreativeElectricConduitBlock;
 import net.mcreator.dwarffortressreal.block.CreativeBatteryBlock;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -29,12 +33,21 @@ public class DwarfFortressRealModBlocks {
 			() -> new SilverFishProductionTestBlock());
 	public static final RegistryObject<Block> ELECTRIC_CONDUIT = REGISTRY.register("electric_conduit", () -> new ElectricConduitBlock());
 	public static final RegistryObject<Block> CREATIVE_BATTERY = REGISTRY.register("creative_battery", () -> new CreativeBatteryBlock());
+	public static final RegistryObject<Block> CREATIVE_ELECTRIC_CONDUIT = REGISTRY.register("creative_electric_conduit",
+			() -> new CreativeElectricConduitBlock());
+	public static final RegistryObject<Block> ELECTRIC_CONDUIT_2 = REGISTRY.register("electric_conduit_2", () -> new ElectricConduit2Block());
+	public static final RegistryObject<Block> ELECTRIC_CONDUIT_3 = REGISTRY.register("electric_conduit_3", () -> new ElectricConduit3Block());
+	public static final RegistryObject<Block> ELECTRIC_CONDUIT_4 = REGISTRY.register("electric_conduit_4", () -> new ElectricConduit4Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ElectricConduitBlock.registerRenderLayer();
+			CreativeElectricConduitBlock.registerRenderLayer();
+			ElectricConduit2Block.registerRenderLayer();
+			ElectricConduit3Block.registerRenderLayer();
+			ElectricConduit4Block.registerRenderLayer();
 		}
 	}
 }

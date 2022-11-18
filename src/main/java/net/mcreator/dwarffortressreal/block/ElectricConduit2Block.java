@@ -41,17 +41,17 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.dwarffortressreal.procedures.ElectricConduitUpdateTickProcedure;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModBlocks;
-import net.mcreator.dwarffortressreal.block.entity.ElectricConduitBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.ElectricConduit2BlockEntity;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class ElectricConduitBlock extends Block implements SimpleWaterloggedBlock, EntityBlock {
+public class ElectricConduit2Block extends Block implements SimpleWaterloggedBlock, EntityBlock {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public ElectricConduitBlock() {
+	public ElectricConduit2Block() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
@@ -60,7 +60,7 @@ public class ElectricConduitBlock extends Block implements SimpleWaterloggedBloc
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Transfers 20 energy per tick."));
+		list.add(new TextComponent("Transfers 50 energy per tick."));
 	}
 
 	@Override
@@ -149,7 +149,7 @@ public class ElectricConduitBlock extends Block implements SimpleWaterloggedBloc
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new ElectricConduitBlockEntity(pos, state);
+		return new ElectricConduit2BlockEntity(pos, state);
 	}
 
 	@Override
@@ -163,7 +163,7 @@ public class ElectricConduitBlock extends Block implements SimpleWaterloggedBloc
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof ElectricConduitBlockEntity be) {
+			if (blockEntity instanceof ElectricConduit2BlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -173,7 +173,7 @@ public class ElectricConduitBlock extends Block implements SimpleWaterloggedBloc
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DwarfFortressRealModBlocks.ELECTRIC_CONDUIT.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_2.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 }

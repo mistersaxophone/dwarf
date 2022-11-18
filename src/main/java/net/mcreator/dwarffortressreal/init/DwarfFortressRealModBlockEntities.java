@@ -13,6 +13,10 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.dwarffortressreal.block.entity.SilverFishProductionTestBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduitBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.ElectricConduit4BlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.ElectricConduit3BlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.ElectricConduit2BlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.CreativeElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeBatteryBlockEntity;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -25,6 +29,14 @@ public class DwarfFortressRealModBlockEntities {
 			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT, ElectricConduitBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CREATIVE_BATTERY = register("creative_battery",
 			DwarfFortressRealModBlocks.CREATIVE_BATTERY, CreativeBatteryBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> CREATIVE_ELECTRIC_CONDUIT = register("creative_electric_conduit",
+			DwarfFortressRealModBlocks.CREATIVE_ELECTRIC_CONDUIT, CreativeElectricConduitBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ELECTRIC_CONDUIT_2 = register("electric_conduit_2",
+			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_2, ElectricConduit2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ELECTRIC_CONDUIT_3 = register("electric_conduit_3",
+			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_3, ElectricConduit3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ELECTRIC_CONDUIT_4 = register("electric_conduit_4",
+			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_4, ElectricConduit4BlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

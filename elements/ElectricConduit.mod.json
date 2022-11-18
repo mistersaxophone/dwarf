@@ -24,17 +24,19 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 2.0,
-        "my": 2.0,
+        "mx": 0.0,
+        "my": 0.0,
         "mz": 0.0,
-        "Mx": 14.0,
-        "My": 14.0,
+        "Mx": 16.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Electric Conduit",
-    "specialInfo": [],
+    "name": "Electric Conduit Tier 1",
+    "specialInfo": [
+      "Transfers 20 energy per tick."
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -117,9 +119,9 @@
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 100,
-    "energyMaxReceive": 100,
-    "energyMaxExtract": 100,
+    "energyCapacity": 20,
+    "energyMaxReceive": 20,
+    "energyMaxExtract": 20,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
