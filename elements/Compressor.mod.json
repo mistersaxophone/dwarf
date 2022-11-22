@@ -109,7 +109,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "CompressorGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 2,
     "inventoryStackSize": 64,
