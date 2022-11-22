@@ -36,6 +36,7 @@ public class DwarfFortressRealModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DwarfFortressRealMod.MODID);
 	public static final RegistryObject<Item> CANCER = REGISTRY.register("cancer", () -> new CancerItem());
 	public static final RegistryObject<Item> BATTERY_TIER_1 = block(DwarfFortressRealModBlocks.BATTERY_TIER_1, DwarfFortressRealModTabs.TAB_OOPS);
+	public static final RegistryObject<Item> STONE_DUST = REGISTRY.register("stone_dust", () -> new StoneDustItem());
 	public static final RegistryObject<Item> POWERRANGING = block(DwarfFortressRealModBlocks.POWERRANGING, DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> TROLLING = block(DwarfFortressRealModBlocks.TROLLING, DwarfFortressRealModTabs.TAB_OOPS);
 	public static final RegistryObject<Item> SILVER_FISH_PRODUCTION_TEST = block(DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST,
@@ -47,7 +48,6 @@ public class DwarfFortressRealModItems {
 			() -> new SilverfishProgressProbeItem());
 	public static final RegistryObject<Item> CREATIVE_ELECTRIC_CONDUIT = block(DwarfFortressRealModBlocks.CREATIVE_ELECTRIC_CONDUIT,
 			DwarfFortressRealModTabs.TAB_OOPS);
-	public static final RegistryObject<Item> STONE_DUST = REGISTRY.register("stone_dust", () -> new StoneDustItem());
 	public static final RegistryObject<Item> SLIVERFISHE = REGISTRY.register("sliverfishe_spawn_egg",
 			() -> new ForgeSpawnEggItem(DwarfFortressRealModEntities.SLIVERFISHE, -1, -1,
 					new Item.Properties().tab(DwarfFortressRealModTabs.TAB_OOPS)));
