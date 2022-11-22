@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.dwarffortressreal.block.entity.SilverFishProductionTestBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.RefineryBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit4BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit3BlockEntity;
@@ -43,6 +44,8 @@ public class DwarfFortressRealModBlockEntities {
 			DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST, SilverFishProductionTestBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> COMPRESSOR = register("compressor", DwarfFortressRealModBlocks.COMPRESSOR,
 			CompressorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REFINERY = register("refinery", DwarfFortressRealModBlocks.REFINERY,
+			RefineryBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

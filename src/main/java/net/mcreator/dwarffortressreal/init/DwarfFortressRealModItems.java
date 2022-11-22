@@ -72,6 +72,7 @@ public class DwarfFortressRealModItems {
 	public static final RegistryObject<Item> ANCIENT_SCRAP = REGISTRY.register("ancient_scrap", () -> new AncientScrapItem());
 	public static final RegistryObject<Item> THE_CRUMBLER = REGISTRY.register("the_crumbler", () -> new TheCrumblerItem());
 	public static final RegistryObject<Item> COMPRESSOR = block(DwarfFortressRealModBlocks.COMPRESSOR, DwarfFortressRealModTabs.TAB_OOPS);
+	public static final RegistryObject<Item> REFINERY = block(DwarfFortressRealModBlocks.REFINERY, DwarfFortressRealModTabs.TAB_OOPS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

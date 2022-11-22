@@ -1076,7 +1076,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor",
-      "path": "~/the kelton land/compressor"
+      "path": "~/the kelton land/machinery"
     },
     {
       "name": "CompressorGUI",
@@ -1085,7 +1085,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "compressor_gui",
-      "path": "~/the kelton land/compressor"
+      "path": "~/the kelton land/machinery"
     },
     {
       "name": "CompressorUpdateTick",
@@ -1114,7 +1114,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/compressor"
+      "path": "~/the kelton land/machinery"
     },
     {
       "name": "Lapis",
@@ -1223,6 +1223,71 @@
       "locked_code": false,
       "registry_name": "copper",
       "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "NetheriteScrap",
+      "type": "tag",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_scrap",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Refinery",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery",
+      "path": "~/the kelton land/machinery"
+    },
+    {
+      "name": "RefineryGUI",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_gui",
+      "path": "~/the kelton land/machinery"
+    },
+    {
+      "name": "RefineryUpdateTick",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land/machinery"
+    },
+    {
+      "name": "SilverfishGUI",
+      "type": "gui",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish_gui",
+      "path": "~/the kelton land/stupid jank"
     }
   ],
   "variable_elements": [],
@@ -1238,6 +1303,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.dwarf_fortress_real.refinery": "Refinery",
       "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "item.dwarf_fortress_real.lapis_dust": "Lapis Dust",
       "key.dwarf_fortress_real.win_reminder_7": "win",
@@ -1319,7 +1385,7 @@
             "children": []
           },
           {
-            "name": "compressor",
+            "name": "machinery",
             "children": []
           }
         ]

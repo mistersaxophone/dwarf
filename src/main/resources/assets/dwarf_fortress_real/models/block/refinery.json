@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dwarf_fortress_real:blocks/b1e1f4b7-8b40-4fa2-bb68-6ef0422c",
+    "up": "dwarf_fortress_real:blocks/power-rangers-reboot-universe-ne",
+    "north": "dwarf_fortress_real:blocks/conduitside3",
+    "east": "dwarf_fortress_real:blocks/conduitside3",
+    "south": "dwarf_fortress_real:blocks/conduitside1",
+    "west": "dwarf_fortress_real:blocks/conduitside4",
+    "particle": "dwarf_fortress_real:blocks/b1e1f4b7-8b40-4fa2-bb68-6ef0422c"
+  }
+}

@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.dwarffortressreal.block.TROLLINGBlock;
 import net.mcreator.dwarffortressreal.block.SilverFishProductionTestBlock;
+import net.mcreator.dwarffortressreal.block.RefineryBlock;
 import net.mcreator.dwarffortressreal.block.POWERRANGINGBlock;
 import net.mcreator.dwarffortressreal.block.ElectricConduitBlock;
 import net.mcreator.dwarffortressreal.block.ElectricConduit4Block;
@@ -42,6 +43,7 @@ public class DwarfFortressRealModBlocks {
 	public static final RegistryObject<Block> SILVER_FISH_PRODUCTION_TEST = REGISTRY.register("silver_fish_production_test",
 			() -> new SilverFishProductionTestBlock());
 	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
+	public static final RegistryObject<Block> REFINERY = REGISTRY.register("refinery", () -> new RefineryBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
