@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.dwarffortressreal.world.inventory.GUIMeterMenu;
+import net.mcreator.dwarffortressreal.world.inventory.CompressorGUIMenu;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevelProcedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel9Procedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel8Procedure;
@@ -37,13 +37,13 @@ import java.util.HashMap;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
-	private final static HashMap<String, Object> guistate = GUIMeterMenu.guistate;
+public class CompressorGUIScreen extends AbstractContainerScreen<CompressorGUIMenu> {
+	private final static HashMap<String, Object> guistate = CompressorGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public GUIMeterScreen(GUIMeterMenu container, Inventory inventory, Component text) {
+	public CompressorGUIScreen(CompressorGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -54,7 +54,7 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dwarf_fortress_real:textures/screens/gui_meter.png");
+	private static final ResourceLocation texture = new ResourceLocation("dwarf_fortress_real:textures/screens/compressor_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -138,6 +138,10 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("dwarf_fortress_real:textures/screens/filledbar.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 14, 0, 0, 16, 4, 16, 4);
 		}
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("dwarf_fortress_real:textures/screens/hydraulic_press3.png"));
+		this.blit(ms, this.leftPos + 53, this.topPos + 19, 0, 0, 50, 50, 50, 50);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -157,6 +161,8 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, "INPUT", 15, 25, -12829636);
+		this.font.draw(poseStack, "OUTPUT", 111, 24, -12829636);
 		this.font.draw(poseStack, "" + (new Object() {
 			public int getEnergyStored(BlockPos pos) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -165,7 +171,15 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 				return _retval.get();
 			}
-		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + "", 128, 2, -65536);
+		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + "", 128, 3, -65536);
+		this.font.draw(poseStack, "" + (new Object() {
+			public String getValue(BlockPos pos, String tag) {
+				BlockEntity BlockEntity = world.getBlockEntity(pos);
+				if (BlockEntity != null)
+					return BlockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "PercentageCompleteText")) + "", -8, 8, -12829636);
 	}
 
 	@Override

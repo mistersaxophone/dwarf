@@ -18,6 +18,7 @@ import net.mcreator.dwarffortressreal.block.entity.ElectricConduit3BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit2BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeBatteryBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.CompressorBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.BatteryTier1BlockEntity;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -40,6 +41,8 @@ public class DwarfFortressRealModBlockEntities {
 			DwarfFortressRealModBlocks.CREATIVE_ELECTRIC_CONDUIT, CreativeElectricConduitBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SILVER_FISH_PRODUCTION_TEST = register("silver_fish_production_test",
 			DwarfFortressRealModBlocks.SILVER_FISH_PRODUCTION_TEST, SilverFishProductionTestBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> COMPRESSOR = register("compressor", DwarfFortressRealModBlocks.COMPRESSOR,
+			CompressorBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

@@ -14,6 +14,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.dwarffortressreal.world.inventory.TypeWinMenu;
 import net.mcreator.dwarffortressreal.world.inventory.GUIMeterMenu;
+import net.mcreator.dwarffortressreal.world.inventory.CompressorGUIMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -23,6 +24,8 @@ public class DwarfFortressRealModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<TypeWinMenu> TYPE_WIN = register("type_win", (id, inv, extraData) -> new TypeWinMenu(id, inv, extraData));
 	public static final MenuType<GUIMeterMenu> GUI_METER = register("gui_meter", (id, inv, extraData) -> new GUIMeterMenu(id, inv, extraData));
+	public static final MenuType<CompressorGUIMenu> COMPRESSOR_GUI = register("compressor_gui",
+			(id, inv, extraData) -> new CompressorGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

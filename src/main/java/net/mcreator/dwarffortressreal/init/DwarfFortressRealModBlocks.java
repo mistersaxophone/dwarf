@@ -23,6 +23,7 @@ import net.mcreator.dwarffortressreal.block.ElectricConduit3Block;
 import net.mcreator.dwarffortressreal.block.ElectricConduit2Block;
 import net.mcreator.dwarffortressreal.block.CreativeElectricConduitBlock;
 import net.mcreator.dwarffortressreal.block.CreativeBatteryBlock;
+import net.mcreator.dwarffortressreal.block.CompressorBlock;
 import net.mcreator.dwarffortressreal.block.BatteryTier1Block;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -40,6 +41,7 @@ public class DwarfFortressRealModBlocks {
 			() -> new CreativeElectricConduitBlock());
 	public static final RegistryObject<Block> SILVER_FISH_PRODUCTION_TEST = REGISTRY.register("silver_fish_production_test",
 			() -> new SilverFishProductionTestBlock());
+	public static final RegistryObject<Block> COMPRESSOR = REGISTRY.register("compressor", () -> new CompressorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
