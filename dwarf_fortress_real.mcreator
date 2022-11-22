@@ -1059,6 +1059,15 @@
       "locked_code": false,
       "registry_name": "ancient_scrap",
       "path": "~/the kelton land/DUST"
+    },
+    {
+      "name": "TheCrumbler",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crumbler",
+      "path": "~/the kelton land"
     }
   ],
   "variable_elements": [],
@@ -1101,6 +1110,7 @@
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
       "block.dwarf_fortress_real.creative_battery": "Creative Battery",
       "block.dwarf_fortress_real.creative_electric_conduit": "Creative Electric Conduit",
+      "item.dwarf_fortress_real.the_crumbler": "the crumbler",
       "block.dwarf_fortress_real.trolling": "TROLLING",
       "biome.dwarf_fortress_real.g": "G",
       "block.dwarf_fortress_real.electric_conduit_2": "Electric Conduit Tier 2",
