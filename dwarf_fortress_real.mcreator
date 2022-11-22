@@ -1115,6 +1115,114 @@
         ]
       },
       "path": "~/the kelton land/compressor"
+    },
+    {
+      "name": "Lapis",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Coal",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Emerald2",
+      "type": "tag",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Stone",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Diamond2",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Redstone",
+      "type": "tag",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Gold2",
+      "type": "tag",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Iron2",
+      "type": "tag",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Quartz",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "AncientDust2",
+      "type": "tag",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_dust_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "AncientScrap2",
+      "type": "tag",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_scrap_2",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Copper",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper",
+      "path": "~/the kelton land/stupid jank/stupider jankier"
     }
   ],
   "variable_elements": [],
@@ -1195,7 +1303,12 @@
           },
           {
             "name": "stupid jank",
-            "children": []
+            "children": [
+              {
+                "name": "stupider jankier",
+                "children": []
+              }
+            ]
           },
           {
             "name": "power transfer",
