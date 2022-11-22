@@ -49,7 +49,7 @@ public class TheCrumblerItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 25;
 			}
 
 			public Ingredient getRepairIngredient() {
