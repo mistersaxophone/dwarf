@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "bloche",
-    "textureTop": "jwr67j8h",
-    "textureLeft": "bloche",
-    "textureFront": "bloche",
-    "textureRight": "bloche",
-    "textureBack": "bloche",
+    "texture": "b1e1f4b7-8b40-4fa2-bb68-6ef0422c",
+    "textureTop": "power-rangers-reboot-universe-ne",
+    "textureLeft": "conduitside3",
+    "textureFront": "conduitside3",
+    "textureRight": "conduitside4",
+    "textureBack": "conduitside1",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,11 +33,8 @@
         "subtract": false
       }
     ],
-    "name": "Battery Tier 1",
-    "specialInfo": [
-      "Can store 100k energy.",
-      "WILL LOSE ENERGY IF BROKEN!!!"
-    ],
+    "name": "Refinery",
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -59,7 +56,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -110,22 +107,27 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "GUIMeter",
+    "guiBoundTo": "RefineryGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 0,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": false,
-    "inventoryOutSlotIDs": [],
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      1
+    ],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 100000,
-    "energyMaxReceive": 100000,
-    "energyMaxExtract": 100000,
+    "energyCapacity": 1000000,
+    "energyMaxReceive": 500000,
+    "energyMaxExtract": 500000,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "RefineryUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

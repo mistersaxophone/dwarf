@@ -229,6 +229,67 @@
         }
       },
       {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 145,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 243,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "INPUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "INPUT",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUTPUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OUTPUT",
+          "x": 237,
+          "y": 61
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hydraulic_press3.png",
+          "use1Xscale": true,
+          "name": "hydraulic_press3.png",
+          "x": 179,
+          "y": 56
+        }
+      },
+      {
         "type": "label",
         "data": {
           "text": "<energy>",
@@ -237,8 +298,21 @@
             "falpha": 0.0
           },
           "name": "<energy>",
-          "x": 185,
-          "y": 74
+          "x": 254,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:PercentageCompleteText>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:PercentageCompleteText>",
+          "x": 191,
+          "y": 42
         }
       }
     ],

@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "bloche",
-    "textureTop": "jwr67j8h",
-    "textureLeft": "bloche",
-    "textureFront": "bloche",
-    "textureRight": "bloche",
-    "textureBack": "bloche",
+    "texture": "b1e1f4b7-8b40-4fa2-bb68-6ef0422c",
+    "textureTop": "bloche",
+    "textureLeft": "conduitend",
+    "textureFront": "power-rangers-reboot-universe",
+    "textureRight": "conduitend",
+    "textureBack": "aaaabvunpbyvr915d6c7fvfuv9qbrr5k",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,10 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Battery Tier 1",
+    "name": "Compressor",
     "specialInfo": [
-      "Can store 100k energy.",
-      "WILL LOSE ENERGY IF BROKEN!!!"
+      "compresses"
     ],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -59,7 +58,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -110,29 +109,30 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "GUIMeter",
+    "guiBoundTo": "CompressorGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 0,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": false,
-    "inventoryOutSlotIDs": [],
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      1
+    ],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
     "energyInitial": 0,
-    "energyCapacity": 100000,
+    "energyCapacity": 500000,
     "energyMaxReceive": 100000,
     "energyMaxExtract": 100000,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "CompressorUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

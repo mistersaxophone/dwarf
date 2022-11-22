@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.dwarffortressreal.world.inventory.GUIMeterMenu;
+import net.mcreator.dwarffortressreal.world.inventory.SilverfishGUIMenu;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevelProcedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel9Procedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel8Procedure;
@@ -37,13 +37,13 @@ import java.util.HashMap;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
-	private final static HashMap<String, Object> guistate = GUIMeterMenu.guistate;
+public class SilverfishGUIScreen extends AbstractContainerScreen<SilverfishGUIMenu> {
+	private final static HashMap<String, Object> guistate = SilverfishGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public GUIMeterScreen(GUIMeterMenu container, Inventory inventory, Component text) {
+	public SilverfishGUIScreen(SilverfishGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -54,7 +54,7 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("dwarf_fortress_real:textures/screens/gui_meter.png");
+	private static final ResourceLocation texture = new ResourceLocation("dwarf_fortress_real:textures/screens/silverfish_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -165,7 +165,16 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 				return _retval.get();
 			}
-		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + "", 59, 37, -65536);
+		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + "", 130, 3, -65536);
+		this.font.draw(poseStack, "" + (new Object() {
+			public String getValue(BlockPos pos, String tag) {
+				BlockEntity BlockEntity = world.getBlockEntity(pos);
+				if (BlockEntity != null)
+					return BlockEntity.getTileData().getString(tag);
+				return "";
+			}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "silverfishPercentText")) + "", 9, 21, -12829636);
+		this.font.draw(poseStack, "Silverfish Percentage:", 8, 11, -12829636);
 	}
 
 	@Override
