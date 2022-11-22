@@ -179,7 +179,7 @@ public class CompressorGUIScreen extends AbstractContainerScreen<CompressorGUIMe
 					return BlockEntity.getTileData().getString(tag);
 				return "";
 			}
-		}.getValue(new BlockPos((int) x, (int) y, (int) z), "PercentageCompleteText")) + "", -8, 8, -12829636);
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "PercentageCompleteText")) + "", 65, 5, -12829636);
 	}
 
 	@Override
