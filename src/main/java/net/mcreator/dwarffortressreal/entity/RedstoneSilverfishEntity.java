@@ -29,12 +29,12 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModItems;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModEntities;
 
-public class SLIVERFISHEEntity extends Monster {
-	public SLIVERFISHEEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(DwarfFortressRealModEntities.SLIVERFISHE.get(), world);
+public class RedstoneSilverfishEntity extends Monster {
+	public RedstoneSilverfishEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(DwarfFortressRealModEntities.REDSTONE_SILVERFISH.get(), world);
 	}
 
-	public SLIVERFISHEEntity(EntityType<SLIVERFISHEEntity> type, Level world) {
+	public RedstoneSilverfishEntity(EntityType<RedstoneSilverfishEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
@@ -67,7 +67,7 @@ public class SLIVERFISHEEntity extends Monster {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(DwarfFortressRealModItems.STONE_DUST.get()));
+		this.spawnAtLocation(new ItemStack(DwarfFortressRealModItems.REDSTONE_CRUMBLES.get()));
 	}
 
 	@Override

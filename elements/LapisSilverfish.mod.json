@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Sliverfishe",
+    "mobName": "Lapis Silverfish",
     "mobLabel": "",
     "mobModelName": "Silverfish",
     "mobModelTexture": "g.png",
@@ -13,7 +13,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6710887,
+      "value": -16776961,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StoneDust"
+      "value": "CUSTOM:LapisDust"
     },
     "livingSound": {
       "value": "entity.silverfish.ambient"

@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Sliverfishe",
+    "mobName": "Copper Silverfish",
     "mobLabel": "",
     "mobModelName": "Silverfish",
     "mobModelTexture": "g.png",
@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6710887,
+      "value": -26368,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -16737844,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StoneDust"
+      "value": "CUSTOM:CopperDust"
     },
     "livingSound": {
       "value": "entity.silverfish.ambient"
