@@ -1,0 +1,53 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:AncientSilverfish"
+      },
+      {
+        "value": "CUSTOM:CoalSilverfish"
+      },
+      {
+        "value": "CUSTOM:CopperSilverfish"
+      },
+      {
+        "value": "CUSTOM:DiamondSilverfish"
+      },
+      {
+        "value": "CUSTOM:EmeraldSilverfish"
+      },
+      {
+        "value": "CUSTOM:GoldSilverfish"
+      },
+      {
+        "value": "CUSTOM:IronSilverfish"
+      },
+      {
+        "value": "CUSTOM:LapisSilverfish"
+      },
+      {
+        "value": "CUSTOM:QuartzSilverfish"
+      },
+      {
+        "value": "CUSTOM:RedstoneSilverfish"
+      },
+      {
+        "value": "CUSTOM:SLIVERFISHE"
+      },
+      {
+        "value": "CUSTOM:StoneSilverfish"
+      },
+      {
+        "value": "EntitySilverfish"
+      }
+    ],
+    "name": "silverfish",
+    "namespace": "mod"
+  }
+}

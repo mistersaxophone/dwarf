@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "dwarf_fortress_real:coal_silverfish",
+    "dwarf_fortress_real:copper_silverfish",
+    "dwarf_fortress_real:lapis_silverfish",
+    "dwarf_fortress_real:gold_silverfish",
+    "dwarf_fortress_real:sliverfishe",
+    "dwarf_fortress_real:iron_silverfish",
+    "dwarf_fortress_real:stone_silverfish",
+    "dwarf_fortress_real:ancient_silverfish",
+    "dwarf_fortress_real:diamond_silverfish",
+    "dwarf_fortress_real:redstone_silverfish",
+    "dwarf_fortress_real:emerald_silverfish",
+    "dwarf_fortress_real:quartz_silverfish"
+  ]
+}

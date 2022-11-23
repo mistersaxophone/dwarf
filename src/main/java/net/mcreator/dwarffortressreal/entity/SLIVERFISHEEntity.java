@@ -67,7 +67,7 @@ public class SLIVERFISHEEntity extends Monster {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(DwarfFortressRealModItems.STONE_DUST.get()));
+		this.spawnAtLocation(new ItemStack(DwarfFortressRealModItems.THE_CRUMBLER.get()));
 	}
 
 	@Override

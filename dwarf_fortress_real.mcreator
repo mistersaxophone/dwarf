@@ -1387,6 +1387,24 @@
       "locked_code": false,
       "registry_name": "coal_silverfish",
       "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "Silverfish",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "ModdedSilverfish",
+      "type": "tag",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
     }
   ],
   "variable_elements": [
