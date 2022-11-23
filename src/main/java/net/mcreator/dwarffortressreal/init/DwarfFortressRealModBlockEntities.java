@@ -12,12 +12,14 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.dwarffortressreal.block.entity.SilverFishProductionTestBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.RefineryBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit4BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit3BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.ElectricConduit2BlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeElectricConduitBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.CreativeBatteryBlockEntity;
+import net.mcreator.dwarffortressreal.block.entity.CompressorBlockEntity;
 import net.mcreator.dwarffortressreal.block.entity.BatteryTier1BlockEntity;
 import net.mcreator.dwarffortressreal.DwarfFortressRealMod;
 
@@ -40,6 +42,10 @@ public class DwarfFortressRealModBlockEntities {
 			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_3, ElectricConduit3BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ELECTRIC_CONDUIT_4 = register("electric_conduit_4",
 			DwarfFortressRealModBlocks.ELECTRIC_CONDUIT_4, ElectricConduit4BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> COMPRESSOR = register("compressor", DwarfFortressRealModBlocks.COMPRESSOR,
+			CompressorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> REFINERY = register("refinery", DwarfFortressRealModBlocks.REFINERY,
+			RefineryBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {
