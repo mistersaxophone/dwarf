@@ -29,12 +29,12 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModItems;
 import net.mcreator.dwarffortressreal.init.DwarfFortressRealModEntities;
 
-public class SLIVERFISHEEntity extends Monster {
-	public SLIVERFISHEEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(DwarfFortressRealModEntities.SLIVERFISHE.get(), world);
+public class StoneSilverfishEntity extends Monster {
+	public StoneSilverfishEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(DwarfFortressRealModEntities.STONE_SILVERFISH.get(), world);
 	}
 
-	public SLIVERFISHEEntity(EntityType<SLIVERFISHEEntity> type, Level world) {
+	public StoneSilverfishEntity(EntityType<StoneSilverfishEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);

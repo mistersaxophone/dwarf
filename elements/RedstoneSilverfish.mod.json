@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Sliverfishe",
+    "mobName": "Redstone Silverfish",
     "mobLabel": "",
     "mobModelName": "Silverfish",
-    "mobModelTexture": "g.png",
+    "mobModelTexture": "redstonesilverfish.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 0.3,
@@ -13,7 +13,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6710887,
+      "value": -65536,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StoneDust"
+      "value": "CUSTOM:RedstoneCrumbles"
     },
     "livingSound": {
       "value": "entity.silverfish.ambient"

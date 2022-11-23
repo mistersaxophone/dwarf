@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Used to measure the exact energy of any given block from the mod."
+      "Used to measure the exact energy of any given block from the mod.",
+      "Creative only."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

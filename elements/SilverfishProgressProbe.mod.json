@@ -25,7 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Used to determine the current progress of silverfish production."
+      "Used to determine the current progress of silverfish production.",
+      "Creative only."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
