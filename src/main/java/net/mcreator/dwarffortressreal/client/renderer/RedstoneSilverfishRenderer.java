@@ -16,6 +16,6 @@ public class RedstoneSilverfishRenderer extends MobRenderer<RedstoneSilverfishEn
 
 	@Override
 	public ResourceLocation getTextureLocation(RedstoneSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/redstonesilverfish.png");
 	}
 }

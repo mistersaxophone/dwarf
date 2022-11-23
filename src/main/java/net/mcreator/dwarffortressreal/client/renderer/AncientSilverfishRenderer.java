@@ -16,6 +16,6 @@ public class AncientSilverfishRenderer extends MobRenderer<AncientSilverfishEnti
 
 	@Override
 	public ResourceLocation getTextureLocation(AncientSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/ancientsilverfish.png");
 	}
 }

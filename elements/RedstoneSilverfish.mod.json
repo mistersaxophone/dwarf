@@ -5,7 +5,7 @@
     "mobName": "Redstone Silverfish",
     "mobLabel": "",
     "mobModelName": "Silverfish",
-    "mobModelTexture": "g.png",
+    "mobModelTexture": "redstonesilverfish.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 0.3,

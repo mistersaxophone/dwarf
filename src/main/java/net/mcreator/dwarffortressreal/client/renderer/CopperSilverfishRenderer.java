@@ -16,6 +16,6 @@ public class CopperSilverfishRenderer extends MobRenderer<CopperSilverfishEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(CopperSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/coppersilverfish.png");
 	}
 }

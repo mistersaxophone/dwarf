@@ -16,6 +16,6 @@ public class StoneSilverfishRenderer extends MobRenderer<StoneSilverfishEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(StoneSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/stonesilverfish.png");
 	}
 }

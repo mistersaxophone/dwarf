@@ -16,6 +16,6 @@ public class DiamondSilverfishRenderer extends MobRenderer<DiamondSilverfishEnti
 
 	@Override
 	public ResourceLocation getTextureLocation(DiamondSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/diamondsilverfish.png");
 	}
 }

@@ -16,6 +16,6 @@ public class CoalSilverfishRenderer extends MobRenderer<CoalSilverfishEntity, Si
 
 	@Override
 	public ResourceLocation getTextureLocation(CoalSilverfishEntity entity) {
-		return new ResourceLocation("dwarf_fortress_real:textures/entities/g.png");
+		return new ResourceLocation("dwarf_fortress_real:textures/entities/coalsilverfish.png");
 	}
 }

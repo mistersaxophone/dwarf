@@ -5,7 +5,7 @@
     "mobName": "Copper Silverfish",
     "mobLabel": "",
     "mobModelName": "Silverfish",
-    "mobModelTexture": "g.png",
+    "mobModelTexture": "coppersilverfish.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 0.3,
