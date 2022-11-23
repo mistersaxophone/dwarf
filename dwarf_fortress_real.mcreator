@@ -1389,7 +1389,32 @@
       "path": "~/the kelton land/Actual Things/silverfish"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "primary_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "secondary_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "special_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "camellia",
