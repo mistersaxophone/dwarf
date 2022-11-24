@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StoneDust"
+      "value": "CUSTOM:TheCrumbler"
     },
     "livingSound": {
       "value": "entity.silverfish.ambient"

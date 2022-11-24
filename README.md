@@ -4,7 +4,7 @@ DWARF!!!!!!!!!!!
 # TODO
   - Compressor (DONE)
   - Refinery (Refiner?)
-  - Silverfish textures (do not retexture sliverfishe)
+  - Silverfish textures (do not retexture sliverfishe) (doneish)
   - New silverfish (hives/spawners/duplicators/synonyms [need to figure it out])
   - Manned/Mounted Weaponry
     - Artillery
