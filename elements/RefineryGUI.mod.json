@@ -1,0 +1,327 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "emptybarfull.png",
+          "use1Xscale": false,
+          "name": "emptybarfull.png",
+          "x": 278,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel2"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel3"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel4"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 99
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel5"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 95
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel6"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel7"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 87
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel8"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel9"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 79
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel10"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel11"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel12"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel13"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel14"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel15"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "filledbar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IfPowerLevel16"
+          },
+          "name": "filledbar.png",
+          "x": 278,
+          "y": 51
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 145,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 243,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "INPUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "INPUT",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUTPUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OUTPUT",
+          "x": 237,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy>",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "<energy>",
+          "x": 254,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:PercentageCompleteText>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:PercentageCompleteText>",
+          "x": 191,
+          "y": 42
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "updated-pernis-refinery-rotterda2.png",
+          "use1Xscale": true,
+          "name": "updated-pernis-refinery-rotterda2.png",
+          "x": 177,
+          "y": 58
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

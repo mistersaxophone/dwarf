@@ -13,7 +13,7 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -6710887,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -78,19 +78,19 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StoneDust"
+      "value": "CUSTOM:TheCrumbler"
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.silverfish.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.silverfish.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.silverfish.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.silverfish.step"
     },
     "spawnParticles": false,
     "particleToSpawn": {

@@ -1,11 +1,15 @@
 
 package net.mcreator.dwarffortressreal.client.gui;
 
+import net.minecraftforge.energy.CapabilityEnergy;
+
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
@@ -27,6 +31,7 @@ import net.mcreator.dwarffortressreal.procedures.IfPowerLevel12Procedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel11Procedure;
 import net.mcreator.dwarffortressreal.procedures.IfPowerLevel10Procedure;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -152,6 +157,15 @@ public class GUIMeterScreen extends AbstractContainerScreen<GUIMeterMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, "" + (new Object() {
+			public int getEnergyStored(BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = world.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+				return _retval.get();
+			}
+		}.getEnergyStored(new BlockPos((int) x, (int) y, (int) z))) + "", 59, 37, -65536);
 	}
 
 	@Override

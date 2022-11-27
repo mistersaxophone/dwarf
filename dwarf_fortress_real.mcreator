@@ -41,7 +41,7 @@
           }
         ]
       },
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/dont worry"
     },
     {
       "name": "Win",
@@ -209,7 +209,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_fish_production_test",
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/silverfish farming"
     },
     {
       "name": "IfPowerLevel",
@@ -239,7 +239,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel2",
@@ -269,7 +269,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel3",
@@ -299,7 +299,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel4",
@@ -329,7 +329,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel5",
@@ -359,7 +359,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel6",
@@ -389,7 +389,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel7",
@@ -419,7 +419,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel8",
@@ -449,7 +449,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel9",
@@ -479,7 +479,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel10",
@@ -509,7 +509,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel11",
@@ -539,7 +539,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel12",
@@ -569,7 +569,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel13",
@@ -599,7 +599,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel14",
@@ -629,7 +629,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel15",
@@ -659,7 +659,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "IfPowerLevel16",
@@ -689,7 +689,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "GUIMeter",
@@ -698,7 +698,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_meter",
-      "path": "~/the kelton land/stupid jank"
+      "path": "~/the kelton land/Actual Things/stupid jank"
     },
     {
       "name": "EnergyProbe",
@@ -707,7 +707,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "energy_probe",
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/probes -deprecated"
     },
     {
       "name": "EnergyProbeRightclickedOnBlock",
@@ -740,7 +740,7 @@
           }
         ]
       },
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/probes -deprecated"
     },
     {
       "name": "SilverFishProductionTestUpdateTick",
@@ -769,7 +769,7 @@
           }
         ]
       },
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/silverfish farming"
     },
     {
       "name": "SilverFishProductionTestBlockAdded",
@@ -798,7 +798,7 @@
           }
         ]
       },
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/silverfish farming"
     },
     {
       "name": "ElectricConduit",
@@ -807,7 +807,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "ElectricConduitUpdateTick",
@@ -836,7 +836,7 @@
           }
         ]
       },
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "CreativeBattery",
@@ -845,7 +845,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_battery",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "SilverfishProgressProbeRightclickedOnBlock",
@@ -878,7 +878,7 @@
           }
         ]
       },
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/probes -deprecated"
     },
     {
       "name": "SilverfishProgressProbe",
@@ -887,7 +887,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "silverfish_progress_probe",
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/probes -deprecated"
     },
     {
       "name": "CreativeElectricConduit",
@@ -896,7 +896,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_electric_conduit",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "StoneDust",
@@ -905,7 +905,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "SLIVERFISHE",
@@ -914,7 +914,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliverfishe",
-      "path": "~/the kelton land"
+      "path": "~/the kelton land/Actual Things/silverfish"
     },
     {
       "name": "ElectricConduit2",
@@ -923,7 +923,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_2",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "ElectricConduit3",
@@ -932,7 +932,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_3",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "ElectricConduit4",
@@ -941,7 +941,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_conduit_4",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "BatteryTier1",
@@ -950,7 +950,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "battery_tier_1",
-      "path": "~/the kelton land/power transfer"
+      "path": "~/the kelton land/Actual Things/power transfer"
     },
     {
       "name": "LapisDust",
@@ -959,7 +959,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lapis_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "IronDust",
@@ -968,7 +968,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "GoldDust",
@@ -977,7 +977,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "DiamondDust",
@@ -986,7 +986,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "RedstoneCrumbles",
@@ -995,7 +995,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_crumbles",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "CopperDust",
@@ -1004,7 +1004,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "copper_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "CoalDust",
@@ -1013,7 +1013,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "EmeraldDust",
@@ -1022,7 +1022,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emerald_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "QuartzDust",
@@ -1031,7 +1031,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "AncientDustCrumbles",
@@ -1040,7 +1040,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_dust_crumbles",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "AncientDust",
@@ -1049,7 +1049,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_dust",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
     },
     {
       "name": "AncientScrap",
@@ -1058,10 +1058,381 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_scrap",
-      "path": "~/the kelton land/DUST"
+      "path": "~/the kelton land/Actual Things/DUST"
+    },
+    {
+      "name": "TheCrumbler",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crumbler",
+      "path": "~/the kelton land"
+    },
+    {
+      "name": "Compressor",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor",
+      "path": "~/the kelton land/Actual Things/machinery/Compressor"
+    },
+    {
+      "name": "CompressorGUI",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor_gui",
+      "path": "~/the kelton land/Actual Things/machinery/Compressor"
+    },
+    {
+      "name": "CompressorUpdateTick",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressor_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land/Actual Things/machinery/Compressor"
+    },
+    {
+      "name": "Lapis",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Coal",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Emerald2",
+      "type": "tag",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Stone",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Diamond2",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Redstone",
+      "type": "tag",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Gold2",
+      "type": "tag",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Iron2",
+      "type": "tag",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Quartz",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "AncientDust2",
+      "type": "tag",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_dust_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "AncientScrap2",
+      "type": "tag",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_scrap_2",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Copper",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "NetheriteScrap",
+      "type": "tag",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_scrap",
+      "path": "~/the kelton land/Actual Things/stupid jank/stupider jankier"
+    },
+    {
+      "name": "Refinery",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery",
+      "path": "~/the kelton land/Actual Things/machinery/Refinery"
+    },
+    {
+      "name": "RefineryGUI",
+      "type": "gui",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_gui",
+      "path": "~/the kelton land/Actual Things/machinery/Refinery"
+    },
+    {
+      "name": "RefineryUpdateTick",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/the kelton land/Actual Things/machinery/Refinery"
+    },
+    {
+      "name": "SilverfishGUI",
+      "type": "gui",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish_gui",
+      "path": "~/the kelton land/Actual Things/stupid jank"
+    },
+    {
+      "name": "LapisSilverfish",
+      "type": "livingentity",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "DiamondSilverfish",
+      "type": "livingentity",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "RedstoneSilverfish",
+      "type": "livingentity",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "StoneSilverfish",
+      "type": "livingentity",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "QuartzSilverfish",
+      "type": "livingentity",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "AncientSilverfish",
+      "type": "livingentity",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "GoldSilverfish",
+      "type": "livingentity",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "IronSilverfish",
+      "type": "livingentity",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "EmeraldSilverfish",
+      "type": "livingentity",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "CopperSilverfish",
+      "type": "livingentity",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "CoalSilverfish",
+      "type": "livingentity",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "Silverfish",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
+    },
+    {
+      "name": "ModdedSilverfish",
+      "type": "tag",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_silverfish",
+      "path": "~/the kelton land/Actual Things/silverfish"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "primary_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "secondary_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "special_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "camellia",
@@ -1074,10 +1445,40 @@
   ],
   "language_map": {
     "en_us": {
-      "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "block.dwarf_fortress_real.refinery": "Refinery",
+      "entity.dwarf_fortress_real.diamond_silverfish": "Diamond Silverfish",
+      "item.dwarf_fortress_real.stone_silverfish_spawn_egg": "Stone Silverfish Spawn Egg",
       "item.dwarf_fortress_real.lapis_dust": "Lapis Dust",
-      "key.dwarf_fortress_real.win_reminder_7": "win",
       "item.dwarf_fortress_real.iron_dust": "Iron Dust",
+      "item.dwarf_fortress_real.diamond_silverfish_spawn_egg": "Diamond Silverfish Spawn Egg",
+      "entity.dwarf_fortress_real.iron_silverfish": "Iron Silverfish",
+      "entity.dwarf_fortress_real.stone_silverfish": "Stone Silverfish",
+      "subtitles.camellia": "HE\u0027S JAMMING",
+      "item.dwarf_fortress_real.ancient_dust": "Ancient Dust",
+      "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "block.dwarf_fortress_real.battery_tier_1": "Battery Tier 1",
+      "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "entity.dwarf_fortress_real.coal_silverfish": "Coal Silverfish",
+      "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "entity.dwarf_fortress_real.emerald_silverfish": "Emerald Silverfish",
+      "block.dwarf_fortress_real.creative_battery": "Creative Battery",
+      "biome.dwarf_fortress_real.g": "G",
+      "block.dwarf_fortress_real.electric_conduit_2": "Electric Conduit Tier 2",
+      "block.dwarf_fortress_real.electric_conduit_3": "Electric Conduit Tier 3",
+      "block.dwarf_fortress_real.electric_conduit_4": "Electric Conduit Tier 4",
+      "entity.dwarf_fortress_real.lapis_silverfish": "Lapis Silverfish",
+      "entity.dwarf_fortress_real.gold_silverfish": "Gold Silverfish",
+      "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
+      "item.dwarf_fortress_real.ancient_scrap": "Ancient Scrap",
+      "item.dwarf_fortress_real.gold_silverfish_spawn_egg": "Gold Silverfish Spawn Egg",
+      "item.dwarf_fortress_real.coal_silverfish_spawn_egg": "Coal Silverfish Spawn Egg",
+      "item.dwarf_fortress_real.silverfish_progress_probe": "Silverfish Progress Probe",
+      "item.dwarf_fortress_real.redstone_silverfish_spawn_egg": "Redstone Silverfish Spawn Egg",
+      "item.dwarf_fortress_real.sliverfishe_spawn_egg": "Sliverfishe Spawn Egg",
+      "item.dwarf_fortress_real.redstone_crumbles": "Redstone Crumbles",
+      "advancements.we_call_this_folder_hell.title": "welcome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "item.dwarf_fortress_real.ancient_silverfish_spawn_egg": "Ancient Silverfish Spawn Egg",
+      "key.dwarf_fortress_real.win_reminder_7": "win",
       "key.dwarf_fortress_real.win_reminder_8": "win",
       "advancements.we_call_this_folder_hell.descr": "good luck",
       "key.dwarf_fortress_real.win_reminder_5": "win",
@@ -1086,38 +1487,33 @@
       "item.dwarf_fortress_real.quartz_dust": "Quartz Dust",
       "key.dwarf_fortress_real.win_reminder_4": "win",
       "key.dwarf_fortress_real.win_reminder_1": "win",
-      "subtitles.camellia": "HE\u0027S JAMMING",
       "item.dwarf_fortress_real.diamond_dust": "Diamond Dust",
-      "key.dwarf_fortress_real.win_reminder_2": "win",
       "block.dwarf_fortress_real.electric_conduit": "Electric Conduit Tier 1",
-      "item.dwarf_fortress_real.ancient_dust": "Ancient Dust",
-      "key.categories.winreminding": "WINNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "key.dwarf_fortress_real.win_reminder_2": "win",
+      "item.dwarf_fortress_real.emerald_silverfish_spawn_egg": "Emerald Silverfish Spawn Egg",
+      "item.dwarf_fortress_real.copper_silverfish_spawn_egg": "Copper Silverfish Spawn Egg",
+      "item.dwarf_fortress_real.quartz_silverfish_spawn_egg": "Quartz Silverfish Spawn Egg",
       "item.dwarf_fortress_real.stone_dust": "Stone Dust",
-      "block.dwarf_fortress_real.battery_tier_1": "Battery Tier 1",
-      "item.dwarf_fortress_real.cancer": "preview Cancer",
+      "entity.dwarf_fortress_real.redstone_silverfish": "Redstone Silverfish",
       "item.dwarf_fortress_real.coal_dust": "Coal Dust",
-      "biome.dwarf_fortress_real.gogopowerrangers": "GO GO POWER RANGERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
       "item.dwarf_fortress_real.emerald_dust": "Emerald Dust",
       "block.dwarf_fortress_real.powerranging": "POWERRANGING",
-      "block.dwarf_fortress_real.creative_battery": "Creative Battery",
+      "entity.dwarf_fortress_real.quartz_silverfish": "Quartz Silverfish",
       "block.dwarf_fortress_real.creative_electric_conduit": "Creative Electric Conduit",
+      "item.dwarf_fortress_real.the_crumbler": "the crumbler",
       "block.dwarf_fortress_real.trolling": "TROLLING",
-      "biome.dwarf_fortress_real.g": "G",
-      "block.dwarf_fortress_real.electric_conduit_2": "Electric Conduit Tier 2",
-      "block.dwarf_fortress_real.electric_conduit_3": "Electric Conduit Tier 3",
-      "block.dwarf_fortress_real.electric_conduit_4": "Electric Conduit Tier 4",
-      "block.dwarf_fortress_real.silver_fish_production_test": "Silver Fish Production Test",
-      "item.dwarf_fortress_real.energy_probe": "Energy Probe",
+      "entity.dwarf_fortress_real.ancient_silverfish": "Ancient Silverfish",
+      "item.dwarf_fortress_real.iron_silverfish_spawn_egg": "Iron Silverfish Spawn Egg",
+      "block.dwarf_fortress_real.compressor": "Compressor",
+      "item.dwarf_fortress_real.lapis_silverfish_spawn_egg": "Lapis Silverfish Spawn Egg",
+      "entity.dwarf_fortress_real.copper_silverfish": "Copper Silverfish",
       "item.dwarf_fortress_real.copper_dust": "Copper Dust",
-      "item.dwarf_fortress_real.ancient_scrap": "Ancient Scrap",
-      "item.dwarf_fortress_real.silverfish_progress_probe": "Silverfish Progress Probe",
+      "item.dwarf_fortress_real.energy_probe": "Energy Probe",
       "entity.dwarf_fortress_real.sliverfishe": "Sliverfishe",
       "death.attack.winning": "%1$s HAS WON!!!!!!!!!!! CONGRATULATIONS!!!!!!!! EVERYONE SPAM W!!!!!!!!!!!!!!!!! YEAH!!!!!!!!!!!!!",
       "item.dwarf_fortress_real.ancient_dust_crumbles": "Ancient Dust Crumbles",
-      "itemGroup.taboops": "oops",
-      "item.dwarf_fortress_real.sliverfishe_spawn_egg": "Sliverfishe Spawn Egg",
       "item.dwarf_fortress_real.gold_dust": "Gold Dust",
-      "item.dwarf_fortress_real.redstone_crumbles": "Redstone Crumbles"
+      "itemGroup.taboops": "oops"
     }
   },
   "foldersRoot": {
@@ -1136,16 +1532,51 @@
             ]
           },
           {
-            "name": "stupid jank",
-            "children": []
-          },
-          {
-            "name": "power transfer",
-            "children": []
-          },
-          {
-            "name": "DUST",
-            "children": []
+            "name": "Actual Things",
+            "children": [
+              {
+                "name": "machinery",
+                "children": [
+                  {
+                    "name": "Compressor",
+                    "children": []
+                  },
+                  {
+                    "name": "Refinery",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "stupid jank",
+                "children": [
+                  {
+                    "name": "stupider jankier",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "DUST",
+                "children": []
+              },
+              {
+                "name": "power transfer",
+                "children": []
+              },
+              {
+                "name": "silverfish",
+                "children": []
+              },
+              {
+                "name": "silverfish farming",
+                "children": []
+              },
+              {
+                "name": "probes -deprecated",
+                "children": []
+              }
+            ]
           }
         ]
       },

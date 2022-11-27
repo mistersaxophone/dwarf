@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "huh",
+    "customModelName": "Normal",
+    "name": "the crumbler",
+    "specialInfo": [
+      "it crumbles"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Oops"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 1,
+    "efficiency": 25.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 10.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}
